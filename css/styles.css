@@ -5,8 +5,15 @@
   --link-seconary-color: #ffffff;
 }
 
+/* Общие */
 ul {
   list-style: none;
+}
+body {
+    background-color: #E5E5E5;
+}
+a {
+    text-decoration: none;
 }
 
 /* Стили header */
@@ -38,4 +45,18 @@ ul {
 }
 .adress-link a:focus {
   color: var(--link-primary-color);
+}
+
+/* Стили Main */
+h1 {
+    color: var(--link-seconary-color);
+}
+
+.button {
+    color: var(--link-seconary-color);
+    background-color: var(--link-primary-color);
+}
+.button:hover {
+    color: var(--link-primary-color);
+    background-color: var(--link-seconary-color);
 }
