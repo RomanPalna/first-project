@@ -1,0 +1,41 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --link-primary-color: #2196f3;
+  --link-seconary-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Стили header */
+.link-current {
+  color: var(--link-primary-color);
+}
+.link-current:hover {
+  color: var(--primary-text-color);
+}
+.link-current:focus {
+  color: var(--primary-text-color);
+}
+
+.link-nav {
+  color: var(--primary-text-color);
+}
+.link-nav:hover {
+  color: var(--link-primary-color);
+}
+.link-nav:focus {
+  color: var(--link-primary-color);
+}
+
+.adress-link a {
+  color: var(--title-text-color);
+}
+.adress-link a:hover {
+  color: var(--link-primary-color);
+}
+.adress-link a:focus {
+  color: var(--link-primary-color);
+}
