@@ -3,6 +3,7 @@
   --title-text-color: #757575;
   --link-primary-color: #2196f3;
   --link-seconary-color: #ffffff;
+  --footer-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Общие */
@@ -20,9 +21,7 @@ a {
 .link-current {
   color: var(--link-primary-color);
 }
-.link-current:hover {
-  color: var(--primary-text-color);
-}
+.link-current:hover,
 .link-current:focus {
   color: var(--primary-text-color);
 }
@@ -67,4 +66,55 @@ p.principles {
 
 h3.princeples {
   color: var(--primary-text-color);
+}
+
+section .business {
+  color: var(--link-seconary-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+/* Наша команда */
+ul .team {
+  color: var(--primary-text-color);
+}
+
+ul .team-vocation {
+  color: var(--title-text-color);
+}
+
+.social-link a {
+  color: var(--title-text-color);
+}
+.social-link a:hover,
+.social-link a:focus {
+  color: var(--link-seconary-color);
+  background-color: var(--link-primary-color);
+}
+  
+
+.clients a {
+  color: var(--title-text-color);
+}
+.clients a:hover,
+.clients a:focus {
+  color: var(--link-seconary-color);
+  background-color: var(--link-primary-color);
+}
+
+/* Футер */
+footer {
+  background: #2F303A;
+}
+footer .adress,
+footer b {
+  color: var(--link-seconary-color);
+}
+
+footer .mail,
+footer .tel {
+  color: var(--footer-color);
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.6);
 }
