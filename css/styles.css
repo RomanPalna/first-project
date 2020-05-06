@@ -118,3 +118,12 @@ footer .tel {
 footer p {
   color: rgba(255, 255, 255, 0.6);
 }
+
+footer .social-link {
+  color: var(--title-text-color);
+}
+footer .social-link:hover,
+footer .social-link:focus {
+  color: var(--link-seconary-color);
+  background-color: var(--link-primary-color);
+}
