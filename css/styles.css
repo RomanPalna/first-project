@@ -10,10 +10,10 @@ ul {
   list-style: none;
 }
 body {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Стили header */
@@ -30,9 +30,7 @@ a {
 .link-nav {
   color: var(--primary-text-color);
 }
-.link-nav:hover {
-  color: var(--link-primary-color);
-}
+.link-nav:hover,
 .link-nav:focus {
   color: var(--link-primary-color);
 }
@@ -40,23 +38,33 @@ a {
 .adress-link a {
   color: var(--title-text-color);
 }
-.adress-link a:hover {
-  color: var(--link-primary-color);
-}
+.adress-link a:hover,
 .adress-link a:focus {
   color: var(--link-primary-color);
 }
 
 /* Стили Main */
 h1 {
-    color: var(--link-seconary-color);
+  color: var(--link-seconary-color);
 }
 
 .button {
-    color: var(--link-seconary-color);
-    background-color: var(--link-primary-color);
+  color: var(--link-seconary-color);
+  background-color: var(--link-primary-color);
 }
 .button:hover {
-    color: var(--link-primary-color);
-    background-color: var(--link-seconary-color);
+  color: var(--link-primary-color);
+  background-color: var(--link-seconary-color);
+}
+
+h2 {
+  color: var(--primary-text-color);
+}
+
+p.principles {
+  color: var(--title-text-color);
+}
+
+h3.princeples {
+  color: var(--primary-text-color);
 }
