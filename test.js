@@ -182,26 +182,37 @@
 
 // console.log('Тотал: ', total);
 
-let totalSpent = 50;
-const payment = 500;
-let discount = 0;
+// let totalSpent = 50;
+// const payment = 500;
+// let discount = 0;
 
-if (totalSpent < 100) {
-  discount = 0;
-} else if (totalSpent > -100 && totalSpent < 1000) {
-  console.log('Бронза, скидка 2%');
-  discount = 0.02;
-} else if (totalSpent >= 1000 && totalSpent < 5000) {
-  console.log('Серебро, скидка 5%');
-  discount = 0.05;
-} else {
-  console.log('Золото, скидка 5%');
+// if (totalSpent < 100) {
+//   discount = 0;
+// } else if (totalSpent > -100 && totalSpent < 1000) {
+//   console.log('Бронза, скидка 2%');
+//   discount = 0.02;
+// } else if (totalSpent >= 1000 && totalSpent < 5000) {
+//   console.log('Серебро, скидка 5%');
+//   discount = 0.05;
+// } else {
+//   console.log('Золото, скидка 5%');
+// }
+
+// console.log(`Оформляю заказ на суму ${payment} со скидкой ${discount * 100}%`);
+
+// payment = payment - payment * discount;
+
+// totalSpent += payment;
+
+// console.log(`Загальна сума витраченого в магазині: ${totalSpent}`);
+
+const cost = [123, 34, 98, 345, 556, 344, 78];
+let total = 0;
+
+for (let i = 0; i < cost.length; i += 1) {
+  console.log(cost[i]);
+
+  total += cost[i];
 }
 
-console.log(`Оформляю заказ на суму ${payment} со скидкой ${discount * 100}%`);
-
-payment = payment - payment * discount;
-
-totalSpent += payment;
-
-console.log(`Загальна сума витраченого в магазині: ${totalSpent}`);
+console.log('Total:', total);
